@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light" style="color-scheme: light;">
+
+<head>
+<meta http-equiv="content-type" content="text/html" charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="Brady Edwards">
+<meta name="description" content="This is my competency project assignment">
+<meta name="keywords" content="web design, edmonds college, web developer, resume, brady edwards, cloud developer, tech"> 
+<link rel="stylesheet" type="text/css" href="../css/mystyle.css"/>
+<title>Guest Book - Brady Edwards</title>
+</head> 
+
+<body class="chakra-ui-light">
+<h1>My Guest Book</h1>
+<br>
+
+<div>
+	<div style="text-align: center;" class="navbar">
+	<a href="../html/home.html">Home</a>
+	<a href="../html/interests.html">Interests</a>
+	<a href="../html/resume.html">Resume</a>
+	<a href="../html/reflections.html">Reflections</a>
+	<a href="../html/guestbook.html">Guestbook</a>
+	</div>
+	
+<form 
+	method="post"
+	action="http://ss1.ciwcertified.com/cgi-bin/process.p1">
+<article>	
+<h2 style="text-align:center;">Take a moment to answer the following questions</h2><br>
+<p class="margin" style="font-size: 18x;">
+Enter Your Name: <input type="text" name="Name" size="40"/>
+<br/>
+<br/>
+Enter Your E-mail: <input type="text" name="Email" size="40"/>
+<br/>
+<br/>
+Enter Your Website: <input type="text" name="website" value="http://" size="40">
+<br/>
+<br/>
+
+What is your career field?<br/>
+<input type="radio" name="Experience" value="Technology"/>Technology<br/>
+<input type="radio" name="Experience" value="Construction"/>Construction<br/>
+<input type="radio" name="Experience" value="Healthcare"/>Healthcare<br/>
+<input type="radio" name="Experience" value="Education"/>Education<br/>
+<input type="radio" name="Experience" value="Other"/>Other<br/>
+<br/>
+
+Should we add you to our mailing list?<br/>
+<input type="checkbox" name="mailinglist"/>Yes<br/>
+<input type="checkbox" name="mailinglist"/>No<br/>
+<br/>
+
+Are you familiar with any of the following technologies? (check all that apply):<br/>
+<select name="interests" multiple="multiple" size="6">
+<option>HTML</option>
+<option>CSS</option>
+<option>JavaScript</option>
+<option>AJAX</option>
+<option>SQL</option>
+<option>PHP</option>
+</select>
+
+<br/>
+<br/>
+
+How did you find my website?
+<br/>
+<select name="website">
+<option>Select one</option>
+<option>Surfed on in!</option>
+<option>A friend directed me to your site</option>
+<option>Word of mouth</option>
+<option>A search engine directed me to your site</option>
+<option>I came across your site by accident</option>
+<option>Other</option>
+
+</select>
+<br/>
+<br/>
+<br>
+
+Comments:<br/>
+<textarea name="comments" cols="50" rows="6">
+Enter your message here.
+</textarea>
+<br/>
+<br/>
+
+<input type="submit" value="submit"/>
+<input type="reset"/>
+
+</article>
+</p>
+</form>
+</body>
+</html>
